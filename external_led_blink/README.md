@@ -71,18 +71,6 @@ Inside `.ioc` file:
 Generate code after configuration.
 
 ---
-
-## 💻 Firmware Implementation (HAL)
-
-Inside `main.c`:
-
-```c
-while (1)
-{
-    HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
-    HAL_Delay(500);
-}
-
 Code Explanation
 
 HAL_GPIO_TogglePin() → Toggles LED state (ON ↔ OFF)
@@ -151,3 +139,4 @@ HAL driver usage
 External hardware interfacing
 
 Basic embedded debugging
+
